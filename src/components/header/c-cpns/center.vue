@@ -30,7 +30,6 @@ import SearchBar from "@/assets/svg/search_bar.vue";
     border: 1px solid #ccc;
     border-radius: 25px;
     background-color: #fff;
-    cursor: pointer;
     //实现淡入淡出出
     box-shadow: 0 0 0 rgba(0, 0, 0, 0);
     transition: box-shadow 0.4s ease-in-out;

@@ -23,7 +23,6 @@ import User from "@/assets/svg/user.vue";
   .btn {
     padding: 15px;
     margin-right: 5px;
-    cursor: pointer;
   }
   .btn:hover{
     border-radius: 50%;
@@ -41,13 +40,11 @@ import User from "@/assets/svg/user.vue";
     border: 1px solid #ccc;
     border-radius: 25px;
     background-color: #fff;
-    cursor: pointer;
 
     &:hover{
       box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2) ;
       transition: box-shadow 300ms ease ;
     }
-    
   }
 }
 </style>

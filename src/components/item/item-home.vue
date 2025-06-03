@@ -64,7 +64,6 @@ const rate = ref(props.itemData.star_rating ? props.itemData.star_rating : 5);
       width: 100%;
       height: 100%;
       object-fit: cover;
-      cursor: pointer;
       
     }
   }
@@ -87,11 +86,6 @@ const rate = ref(props.itemData.star_rating ? props.itemData.star_rating : 5);
     -webkit-box-orient: vertical;
     line-height: 1.5em; 
     min-height: 3em;
-
-    &:hover {
-      cursor: pointer;
-      text-decoration-line: underline;
-    }
   }
 
   .price {

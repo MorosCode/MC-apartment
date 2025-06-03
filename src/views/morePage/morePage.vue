@@ -23,6 +23,10 @@ const currentPage = ref(1)
 </script>
 
 <style lang="less" scoped>
+.morePage{
+  width: 2000px;
+  margin: 0 auto;
+}
 .room-section {
   display: flex;
   justify-content: center;
